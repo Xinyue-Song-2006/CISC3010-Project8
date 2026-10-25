@@ -1,0 +1,54 @@
+{
+  "input": "C:\\Users\\xinyuesong\\Desktop\\CISC3010 presentation\\project8-spark\\data\\generated\\small.txt",
+  "cache_enabled": true,
+  "master": "local-cluster[2,1,1024]",
+  "partitions": 4,
+  "iterations": 6,
+  "source_edges": 500,
+  "nodes": 500,
+  "materialization_s": 6.866051199999999,
+  "iteration_s": [
+    5.719064100000002,
+    4.4130903,
+    4.311706999999998,
+    4.2616905,
+    4.321631799999999,
+    4.288263900000004
+  ],
+  "subsequent_mean_s": 4.3192767000000005,
+  "total_runtime_s": 38.472364,
+  "rank_count_per_iteration": [
+    500,
+    500,
+    500,
+    500,
+    500,
+    500
+  ],
+  "storage_level": "Memory Serialized 1x Replicated",
+  "spark_ui": "http://LAPTOP-B9M9KEBI:4041",
+  "default_parallelism": 4,
+  "top5": [
+    [
+      76,
+      0.006868696844388998
+    ],
+    [
+      382,
+      0.0066435926637903745
+    ],
+    [
+      233,
+      0.006236722469696082
+    ],
+    [
+      7,
+      0.005780426869542868
+    ],
+    [
+      124,
+      0.005139232014927601
+    ]
+  ],
+  "checksum": 1.0000000000000004
+}
