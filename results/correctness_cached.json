@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "nodes": 200,
+  "iterations": 6,
+  "max_abs_error": 4.992764014721818e-13,
+  "tolerance": 1e-08
+}
