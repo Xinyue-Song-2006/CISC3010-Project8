@@ -1,0 +1,54 @@
+{
+  "input": "C:\\Users\\xinyuesong\\Desktop\\CISC3010 presentation\\project8-spark\\data\\sample_edges.txt",
+  "cache_enabled": false,
+  "master": "local-cluster[2,1,1024]",
+  "partitions": 4,
+  "iterations": 6,
+  "source_keys": 1000,
+  "nodes": 1000,
+  "materialization_s": 5.6569585,
+  "iteration_s": [
+    5.453939499999999,
+    4.616850800000002,
+    4.167145600000001,
+    4.153290599999998,
+    4.150472199999999,
+    4.129537499999998
+  ],
+  "subsequent_mean_s": 4.243459339999999,
+  "total_runtime_s": 36.3687046,
+  "rank_count_per_iteration": [
+    1000,
+    1000,
+    1000,
+    1000,
+    1000,
+    1000
+  ],
+  "storage_level": "Serialized 1x Replicated",
+  "spark_ui": "http://LAPTOP-B9M9KEBI:4040",
+  "default_parallelism": 4,
+  "top5": [
+    [
+      576,
+      0.0032853695612064244
+    ],
+    [
+      60,
+      0.0027791662628858624
+    ],
+    [
+      292,
+      0.002720154257541673
+    ],
+    [
+      291,
+      0.0024005094097157335
+    ],
+    [
+      765,
+      0.0022400691226439604
+    ]
+  ],
+  "checksum": 0.9999999999999997
+}
