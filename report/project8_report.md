@@ -49,7 +49,7 @@ All workers run on one laptop and share the same physical CPU, memory, and disk.
 
 ## 7. Changes after presentation feedback
 
-The presentation is scheduled for 26 October 2026, so this version records the pre-presentation baseline. After presenting, add the actual feedback and the corresponding change here before the 5 November final submission. The project already identifies its additions to the Spark example: the deterministic workload generator, cache toggle, timing separation, sequential verifier, repeated experiment runner, raw-result retention, and figure-generation scripts. If feedback asks for clearer evidence, the existing logs and raw CSV make the figures reproducible without changing the workload.
+The presented version was retained as the final version. The final submission includes the complete implementation, experiment results, and documentation. The project identifies its additions to the Spark example: the deterministic workload generator, cache toggle, timing separation, sequential verifier, repeated experiment runner, raw-result retention, and figure-generation scripts.
 
 ## 8. AI-use statement
 
