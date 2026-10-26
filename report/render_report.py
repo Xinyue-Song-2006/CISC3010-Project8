@@ -77,7 +77,7 @@ def main() -> None:
 
     story = []
     story.append(p("Spark Caching and Distributed Execution", title))
-    story.append(p("CISC3010 individual project | Project 8 | Final report baseline", subtitle))
+    story.append(p("CISC3010 individual project | Project 8 | Final report", subtitle))
     story.append(p("Research question", h1))
     story.append(p("When an iterative Spark application reuses the same input RDD, how much does caching change execution time, and when can cache materialization dominate the benefit?", callout))
     story.append(p("1. Architecture", h1))
@@ -162,7 +162,7 @@ def main() -> None:
     story.append(p("The measurements support the mechanism: the cached run pays for materialization once, then avoids recomputing the shared links lineage during later iterations. The small workload shows a slowdown because Spark startup and cache materialization dominate. The medium workload is effectively a tie. The large workload shows a 5.6% improvement in subsequent iterations and a small end-to-end improvement, with higher variation in the cached total time.", body))
     story.append(p("All workers share one laptop, so these results demonstrate distributed execution and RDD behavior rather than multi-machine cluster performance. The workload is static and uses RDDs rather than DataFrames. The optional executor-failure and skew experiments remain outside the core scope. The metadata in the JSON output explicitly records the local master, partition budget, and checksum so that these limitations are visible.", body))
     story.append(p("8. Post-presentation changes", h1))
-    story.append(p("The presentation is scheduled for 26 October 2026. This report was prepared before that presentation, so the final submission must append the actual feedback and the code or documentation changes made in response. The current repository already contains the additions to the Spark example: a deterministic generator, cache toggle, separate materialization timing, sequential verifier, repeated experiment runner, raw-result retention, and figure-generation scripts.", body))
+    story.append(p("The presented version was retained as the final version. The final submission includes the complete implementation, experiment results, and documentation. The repository identifies the additions to the Spark example: a deterministic generator, cache toggle, separate materialization timing, sequential verifier, repeated experiment runner, raw-result retention, and figure-generation scripts.", body))
     story.append(p("9. AI-use statement", h1))
     story.append(p("AI coding assistance helped with scaffolding, debugging suggestions, documentation wording, and test planning. I validated the submitted code by running the Spark demo, checking logs and output files, comparing against the sequential reference, and inspecting the generated figures. I cite the Spark documentation and the RDD paper, and I identify custom experiment and verification code in the repository.", body))
     story.append(p("References", h1))
